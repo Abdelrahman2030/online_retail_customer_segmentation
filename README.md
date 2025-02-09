@@ -1,5 +1,10 @@
 # Online retail customer segmentation
 
+## Goals
+- Conert data from being stored for each transaction to be data for each customer, and add valiable info of the customer
+- Group customers to different clusters
+- Analyze each cluster to identify unique charactaristics
+
 ## Data description
 - `InvoiceNo`: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation. 
 - `StockCode`: Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.
