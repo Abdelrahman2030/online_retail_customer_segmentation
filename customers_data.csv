@@ -1,4 +1,4 @@
-CustomerID,TotalOrders,TotalSpent,AverageSpent,TotalQuantity,CanceledInvoices,MostFrequentDay,MostFrequentHour,ProductDiversity,FirstPurchase,LastPurchase,Country,LifeTime,Recency
+CustomerID,TotalOrders,TotalSpent,AverageSpent,ItemsBought,CanceledInvoices,MostFrequentDay,MostFrequentHour,ProductDiversity,FirstPurchase,LastPurchase,Country,LifeTime,Recency
 12346,1,0.0,0.0,0,1,Tuesday,10,1,2011-01-18 10:01:00,2011-01-18 10:17:00,United Kingdom,0,325
 12347,7,4310.0,23.681318681318682,2458,0,Tuesday,14,103,2010-12-07 14:57:00,2011-12-07 15:52:00,Iceland,365,1
 12348,4,1797.24,57.97548387096774,2341,0,Thursday,19,22,2010-12-16 19:09:00,2011-09-25 13:13:00,Finland,282,74
