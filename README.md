@@ -33,11 +33,6 @@
 - `LifeTime` column (The time difference between the first and last purchase, in number of days)
 - `Recency` column (The time since the last purchase for each customer, in days)
 
-
-
-
-
-
 ## Questions to ask
 - What are the main characteristics of each cluster?
 - Which clusters have the highest value (Total amount spent over time)?
