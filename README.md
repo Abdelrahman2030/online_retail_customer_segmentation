@@ -19,7 +19,7 @@
 ## Converted data description
 **It has 4372 rows, 13 columns**   
 - `CustomerID` (Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer)
-- `TotalOrders`(The number of orders for each customer, the cancelation is not included)
+- `TotalOrders`(The number of unique orders for each customer, the cancelation is not included)
 - `TotalSpent` (Total amount spent for each customer)
 - `AverageValue`(average order value)
 - `ItemsBought` (The number of items bought for each customer)
@@ -32,6 +32,7 @@
 - `Country` (Country name. Nominal, the name of the country where each customer resides)
 - `LifeTime` column (The time difference between the first and last purchase, in number of days)
 - `Recency` column (The time since the last purchase for each customer, in days)
+- `RFM` column (The RFM metrics, witht the following weights (0.5 : TotalSpet, 0.3 : TotalOrders, 0.2 : Recency))
 
 ## Questions to ask
 - What are the main characteristics of each cluster?
